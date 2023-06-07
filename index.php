@@ -30,6 +30,52 @@ if ((isset($_POST["acao"]))) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 </head>
+<style>
+    body {
+			font-family: century Gothic;
+            background: #f0f0f0;
+		}
+		.container {
+			background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            color: white;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 0;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+		}
+		label {
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+		input[type="submit"] {
+			font-family: century Gothic;
+			background-color: white;
+			color: black;
+			padding: 10px;
+			cursor: pointer;
+			font-size: 14px;
+		}
+		button{
+			font-family: century Gothic;
+			background-color: white;
+			color: black;
+			padding: 10px;
+			cursor: pointer;
+			font-size: 14px;
+		}
+</style>
 <body>
 	<form method="POST">
 		<h2>Cadastro</h2>
